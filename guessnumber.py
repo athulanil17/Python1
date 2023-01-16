@@ -5,10 +5,7 @@ guess=0
 count=0
 
 while guess!=number:
-    guess=input("Guess a number between 1 to 9: ")
-    
-    
-    guess=int(guess)
+    guess=int(input("Guess a number between 1 to 9: "))
     count+=1
     if guess not in range(1,9):
         print("You have to guess a number between 1 to 9")
