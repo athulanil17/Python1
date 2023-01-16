@@ -4,7 +4,7 @@ number=random.randint(1,9)
 guess=0
 count=0
 
-while guess!=number and guess!=exit:
+while guess!=number:
     guess=input("Guess a number between 1 to 9: ")
     
     
